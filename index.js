@@ -9,15 +9,28 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
-buildTeam()
-
 const team = [];
+buildTeam()
 
 async function buildTeam() {
     console.log("Good morning! Let's bring some new hires on board!")
     // ALWAYS CREATING A MANAGER TO START
     team.push(await createManager())
-
+    // do creates a loop that executes the statement until the condition is false 
+    // do {
+    //     statement
+    // }
+    // while(condition)
+    do {
+        var nextEmployee = await createNextEmployee();
+        if(nextEmployee) {
+            team.push(nextEmployee);
+        }
+    } while (nextEmployee)
+    if (!fs.existsSync(OUTPUT_DIR)){
+        fs.mkdirSync(OUTPUT_DIR);
+    }
+    fs.writeFileSync(outputPath, render(team), "utf-8")
 }
 
 async function createManager() {
@@ -70,7 +83,7 @@ async function createEngineer() {
         {
             type: "input",
             name: "name",
-            message: "What is the Manager's name?",
+            message: "What is the Engineer's name?",
             validate: validateNotEmpty
         },
         {
@@ -100,7 +113,7 @@ async function createIntern() {
         {
             type: "input",
             name: "name",
-            message: "What is the Manager's name?",
+            message: "What is the Intern's name?",
             validate: validateNotEmpty
         },
         {
@@ -125,7 +138,7 @@ async function createIntern() {
     return new Intern(answers.name, answers.id, answers.email, answers.school);
 }
 
-function validateNotempty(string) {
+function validateNotEmpty(string) {
     if (string === "") {
       return "Please enter at least one character.";
     } else {
