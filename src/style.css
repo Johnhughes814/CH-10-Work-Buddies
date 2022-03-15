@@ -1,0 +1,25 @@
+body{
+    background-color: yellowgreen;
+}
+
+.card-header{
+    background-color: #262322;
+}
+.card-title{
+    color: #DDFFF7;
+}
+
+.body-row{
+    padding: 1em; 
+}
+
+.container{
+    padding:0 5rem;
+}
+/* light blue DDFFF7
+yellowgreen 8AA147
+F96900orange
+5A5353gray
+262322black
+ */
+
