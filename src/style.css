@@ -16,10 +16,14 @@ body{
 .container{
     padding:0 5rem;
 }
+
+.cardStyle{
+    margin: 2rem;
+}
+
+
 /* light blue DDFFF7
 yellowgreen 8AA147
 F96900orange
 5A5353gray
-262322black
- */
-
+262322black */
