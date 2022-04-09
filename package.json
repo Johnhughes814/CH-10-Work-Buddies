@@ -1,9 +1,15 @@
 {
+  "name": "work-buddies",
+  "version": "1.0.0",
+  "description": "Work Buddies is a command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
+  "main": "index.js",
+  "author": "John Hughes",
+  "license": "MIT",
   "dependencies": {
-    "inquirer": "^8.2.1",
-    "jest": "^27.5.1"
-  },
-  "scripts": {
-    "test": "jest"
-  }
+      "inquirer": "^8.2.1",
+      "jest": "^27.5.1"
+    },
+    "scripts": {
+      "test": "jest"
+    }
 }
