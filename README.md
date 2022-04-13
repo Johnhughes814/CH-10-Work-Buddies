@@ -1,6 +1,7 @@
 # CH-10-Work-Buddies
 
-![ALT_TEXT](https://img.shields.io/badge/GRAY_TEXT-COLOR_TEXT-COLOR)
+![inquirer](https://img.shields.io/badge/tech-inquirer-blue)
+![inquirer](https://img.shields.io/badge/tech-jest-red)
 
 ## Description
 Work Buddies is a command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
