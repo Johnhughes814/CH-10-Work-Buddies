@@ -7,6 +7,8 @@ Work Buddies is a command-line application that takes in information about emplo
 
 ### [LIVE](https://youtu.be/RA0fSl1yqOc)
 
+![screenshot](https://raw.githubusercontent.com/Johnhughes814/Work-Buddies/main/workBuddies.png)
+
 ## Table of Contents
   - [License](#license)
   - [Installation](#installation)
