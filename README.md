@@ -5,7 +5,7 @@
 ## Description
 Work Buddies is a command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
-### [DEMO_IMAGE_OR_MOVIE](ENTER_URL)
+### [LIVE](https://youtu.be/RA0fSl1yqOc)
 
 ## Table of Contents
   - [License](#license)
