@@ -18,7 +18,7 @@ Work Buddies is a command-line application that takes in information about emplo
 
 ## License
 <a href="https://opensource.org/licenses/MIT">
-<img src="https://img.shields.io/badge/GRAY_TEXT-COLOR_TEXT-COLOR" alt="MIT"></a>
+<img src="https://img.shields.io/badge/License-MIT-blue" alt="MIT"></a>
 
 ## Context
 This application can be used for a variety of purposes, such as building an employee directory.
